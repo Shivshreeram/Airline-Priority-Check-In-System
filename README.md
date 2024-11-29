@@ -121,4 +121,4 @@ Ivy Green - ET020E
 ## About team
 
 - BM23BTECH11006 | BM23BTECH11021
-- Created by [Sriharsha Rao C](www.github.com/MeltingLiquid) and [ShivShreeram P](www.github.com/Shivshreeram)
+- Created by [Sriharsha Rao C](www.github.com/MeltngLiquid) and [ShivShreeram P](www.github.com/Shivshreeram)
