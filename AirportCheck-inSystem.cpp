@@ -61,7 +61,9 @@ public:
         } else if (ticketClass == 1) {
             priority = 2; // First class passengers have higher priority
         } else if (ticketClass == 2) {
-            priority = 3; // Business class passengers are in between
+            priority = 2; // Business class passengers have higher priority than economy class
+        } else if (ticketClass == 3) {
+            priority = 3; // Economy class passengers have the lowest priority
         }
 
         Passenger passenger(name, ticketNumber, priority);
