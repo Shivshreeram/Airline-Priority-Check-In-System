@@ -46,7 +46,7 @@ This project implements a **check-in system** for passengers across multiple air
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/airline-checkin-system.git
+   git clone https://github.com/MeltngLiquid/airline-checkin-system.git
    ```
 
 2. Navigate to the project directory:
