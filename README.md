@@ -49,17 +49,17 @@ This project implements a **check-in system** for passengers across multiple air
 
 2. Navigate to the project directory:
 ```
-cd airline-checkin-system
+  cd airline-checkin-system
 ```
 
 3. Compile the program:
 ```
-g++ -o checkin_system main.cpp
+  g++ -o checkin_system main.cpp
 ```
 
 4. Run the program:
 ```
-./checkin_system
+  ./checkin_system
 ```
 
 # Example Output
