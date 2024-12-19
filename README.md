@@ -1,10 +1,8 @@
-# DSA Lab Project 1
-
-## Airline Check-In System
+# Airline Check-In System
 
 This project implements a **check-in system** for passengers across multiple airlines. Passengers are prioritized based on factors such as ticket class and special needs. The system efficiently manages airline-specific queues and gate assignments using **hash tables** and processes passengers based on priority using **priority queues**.
   
-## Features
+# Features
 
 - **Passenger Check-In:** Allows check-in for passengers with the following details:
   - Name
@@ -29,20 +27,20 @@ This project implements a **check-in system** for passengers across multiple air
 
 - **Priority Sequence Display:** View the priority order of passengers for each airline.
 
-## Technologies Used
+# Technologies Used
 
 - **C++**
   - **`unordered_map` (Hash Table)** for efficient airline-specific data storage
   - **`priority_queue`** (Heap) for managing passenger priority
   - **Standard C++ libraries**: `iostream`, `string`, `vector`, `queue`
 
-## How to Run
+# How to Run
 
-### Prerequisites
+## Prerequisites
 
 - A C++ compiler (e.g., **g++**, **clang++**) installed on your machine.
 
-### Compilation and Execution
+## Compilation and Execution
 
 1. Clone this repository:
    ```
@@ -64,9 +62,9 @@ g++ -o checkin_system main.cpp
 ./checkin_system
 ```
 
-## Example Output
+# Example Output
 
-### Example Output
+## Example Output
 
 ```bash
 Adding 10 hardcoded passengers to the system...
@@ -112,13 +110,13 @@ ET Passengers (Priority Order):
 Jack Black - ET008M
 Ivy Green - ET020E
 ```
-## How It Works
+# How It Works
 - The system stores passengers in a `priority_queue`, which ensures that the passenger with the highest priority (lowest priority value) is processed first.
 - Each airline's queue is managed in an unordered_map, which provides constant-time access to airline-specific data.
 - Passengers are processed according to their priority level, with special needs passengers receiving the highest priority, followed by first-class, business-class, and economy-class passengers.
   
 
-## About team
+# About team
 
 - BM23BTECH11006 | BM23BTECH11021
 - Created by [Sriharsha Rao C](www.github.com/MeltngLiquid) and [ShivShreeram P](www.github.com/Shivshreeram)
