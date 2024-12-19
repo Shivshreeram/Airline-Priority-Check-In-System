@@ -48,25 +48,25 @@ This project implements a **check-in system** for passengers across multiple air
    ```
 
 2. Navigate to the project directory:
-```
+  ```
   cd airline-checkin-system
-```
+  ```
 
 3. Compile the program:
-```
+  ```
   g++ -o checkin_system main.cpp
-```
+  ```
 
 4. Run the program:
-```
+  ```
   ./checkin_system
-```
+  ```
 
 # Example Output
 
 ## Example Output
 
-```bash
+  ```bash
   Adding 10 hardcoded passengers to the system...
   
   --- Check-In System Menu ---
@@ -109,7 +109,7 @@ This project implements a **check-in system** for passengers across multiple air
   ET Passengers (Priority Order):
   Jack Black - ET008M
   Ivy Green - ET020E
-```
+  ```
 # How It Works
 - The system stores passengers in a `priority_queue`, which ensures that the passenger with the highest priority (lowest priority value) is processed first.
 - Each airline's queue is managed in an unordered_map, which provides constant-time access to airline-specific data.
